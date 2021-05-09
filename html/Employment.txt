@@ -1,1 +1,74 @@
 <div class="gap"></div>
+        <h3 class="text-center text-warning ">Employment</h3>
+        <div class="row">
+            <div class="box col mx-1">
+                <div>
+                    <p>Employment Status
+                    </p>
+                    <p id="Employment_Status" class="text-white-50"></p>
+                </div>
+            </div>
+            <div class="box col mx-1">
+                <div>
+                    <p>Current Salary</p>
+                    <p id="Current_Salary" class="text-white-50">$1.54 k/ month</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="box flex-column">
+            Jobs Available
+            <ul id="jobs_list">
+                <li>
+                    <div class="heading">Entry Level Jobs<div class="text-black-50"></div>
+                    </div>
+                    <ul id="elj">
+
+                    </ul>
+                </li>
+                <li>
+                    <div class="heading">Low Level Jobs<div class="text-black-50"></div>
+                    </div>
+                    <ul id="llj">
+
+                    </ul>
+                </li>
+                <li>
+                    <div class="heading">MId Level Jobs<div class="text-black-50"></div>
+                    </div>
+                    <ul id="mlj">
+
+                    </ul>
+                </li>
+                <li>
+                    <div class="heading">High Level Jobs<div class="text-black-50"></div>
+                    </div>
+                    <ul id="hlj">
+
+                    </ul>
+                </li>
+                <li>
+                    <div class="heading">Top Level Jobs<div class="text-black-50"></div>
+                    </div>
+                    <ul id="tlj">
+
+                    </ul>
+                </li>
+                <li>
+                    <div class="heading">Special Jobs<div class="text-black-50"></div>
+                    </div>
+                    <ul id="sj">
+
+                    </ul>
+                </li>
+                <li>
+                    <div class="heading">Criminal Level Jobs<div class="text-black-50"></div>
+                    </div>
+                    <ul id="clj">
+
+                    </ul>
+                </li>
+            </ul>
+            <div class="btn btn-danger m-3" onclick="quit_job()">quit Job</div>
+        </div>
