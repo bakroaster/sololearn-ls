@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <base href="/" target="_self">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="msg_main">
+        <div class="msg_body">
+
+        </div>
+    </div>
+    <div class="msg_main">
+        <div class="msg_body">
+
+        </div>
+    </div>
+
+    <div class="navup">
+        <div class="Totel-Cash">
+            Totel Cash
+            <p id="cash">0</p>
+        </div>
+        <ul>
+
+            <li><button onclick="home()" class="navlinks active"><img src="icon/png/346-home.png" alt="">Home</button>
+            </li>
+            <li><button onclick="Employment()" class="navlinks"><img src="icon/png/260-resume.png"
+                        alt="">Employment</button></li>
+            <li><button onclick="Education()" class="navlinks"><img src="icon/png/283-notebook.png"
+                        alt="">Education</button></li>
+            <li><button onclick="Business()" class="navlinks"><img src="icon/png/111-idea.png" alt="">Business</button>
+            </li>
+            <li><button onclick="Finance()" class="navlinks"><img src="icon/png/079-calculator.png"
+                        alt="">Finance</button></li>
+            <li><button onclick="Socialising()" class="navlinks"><img src="icon/png/100-like.png"
+                        alt="">Socialising</button></li>
+        </ul>
+    </div>
+    <div class="navdown">
+        <div class="Date">
+            Date
+            <p id="gamedate"></p>
+        </div>
+        <ul>
+            <li><button onclick="Relationship()" class="navlinks"><img src="icon/png/359-users.png"
+                        alt="">Relationship</button>
+            </li>
+            <li><button onclick="Properties()" class="navlinks"><img src="icon/png/368-house.png"
+                        alt="">Properties</button></li>
+            <li><button onclick="Shopping()" class="navlinks"><img src="icon/png/187-tabs.png" alt="">Shopping</button>
+            </li>
+            <li><button onclick="Health()" class="navlinks"><img src="icon/png/128-like.png" alt="">Health</button></li>
+            <li><button onclick="About()" class="navlinks"><img src="icon/png/061-info.png" alt="">About</button></li>
+            <li><button onclick="Help()" class="navlinks"><img src="icon/png/206-settings.png" alt="">Help</button></li>
+        </ul>
+    </div>
+
+    <div class="section" id="Home">
+        <div class="gap"></div>
+        Profit: <p id="income">100/month</p>
+        <div class="box space_between">
+            <div class="align_center">
+                <b>
+                    <p id="playername"></p>
+                </b>
+                <p id="age">Age: 0</p>
+                <p id="children">Children: 0</p>
+                <p id="prestige_level">Prestige Level: 0</p>
+            </div>
+            <div>
+                <img src="icon/svg/365-user.svg" alt="" height="100px">
+            </div>
+        </div>
+        <div class="box">
+            <div class="healthbox">
+                <p>Health</p>
+                <div id="health_bar">
+                    <div id="health"></div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <button class="btn btn-danger" onclick="startnf()">Start New Life</button>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
