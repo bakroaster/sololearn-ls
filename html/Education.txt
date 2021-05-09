@@ -70,4 +70,4 @@
             </ul>
             <div class="btn btn-danger m-3" onclick="quit_course()">quit course</div>
         </div>
-    </div>
+  
