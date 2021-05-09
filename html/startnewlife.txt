@@ -1,1 +1,9 @@
 <div class="gap"></div>
+<div id="newlife" class="newlife">
+        <div class="container">
+
+            <input id="payernameinput" class="form-control" type="text">
+            <a href="index.html" class="btn btn-success my-2" onclick="StartNewLife()">Start New Life</a>
+
+        </div>
+    </div>
