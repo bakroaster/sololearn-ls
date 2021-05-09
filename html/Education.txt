@@ -2,44 +2,13 @@
         <div class="msg_body">
             
         </div>
-    </div><div class="msg_main">
+    </div>
+    <div class="msg_main">
         <div class="msg_body">
             
         </div>
     </div>
-    <div class="navup">
-        <div class="Totel-Cash">
-            Totel Cash
-            <p id="cash">0</p>
-        </div>
-        <ul>
-            <li><a href="/Life-Simulator/" class="navlinks "><img src="icon/png/346-home.png" alt="">Home</a></li>
-            <li><a href="Employment.html" class="navlinks"><img src="icon/png/260-resume.png" alt="">Employment</a></li>
-            <li><a href="Education.html" class="navlinks active"><img src="icon/png/283-notebook.png" alt="">Education</a></li>
-            <li><a href="Business.html" class="navlinks"><img src="icon/png/111-idea.png" alt="">Business</a></li>
-            <li><a href="Finance.html" class="navlinks"><img src="icon/png/079-calculator.png" alt="">Finance</a></li>
-            <li><a href="Socialising.html" class="navlinks"><img src="icon/png/100-like.png" alt="">Socialising</a></li>
-
-        </ul>
-    </div>
-    <div class="navdown">
-        <div class="Date">
-            Date
-            <p id="gamedate"></p>
-        </div>
-        <ul>
-            <li><a href="Relationship.html" class="navlinks"><img src="icon/png/359-users.png" alt="">Relationship</a></li>
-            <li><a href="Properties.html" class="navlinks"><img src="icon/png/368-house.png" alt="">Properties</a></li>
-            <li><a href="Shopping.html" class="navlinks"><img src="icon/png/187-tabs.png" alt="">Shopping</a></li>
-            <li><a href="Health.html" class="navlinks"><img src="icon/png/128-like.png" alt="">Health</a></li>
-            <li><a href="About.html" class="navlinks"><img src="icon/png/061-info.png" alt="">About</a></li>
-            <li><a href="Help.html" class="navlinks"><img src="icon/png/206-settings.png" alt="">Help</a></li>
-
-        </ul>
-    </div>
-
-   
-    <div class="section" id="Education">
+ 
         <div class="gap"></div>
         
         <h3 class="text-center text-warning ">Education</h3> 
