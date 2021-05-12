@@ -10,7 +10,7 @@
                 <p id="prestige_level">Prestige Level: 0</p>
             </div>
             <div>
-                <img src="icon/svg/365-user.svg" alt="" height="100px">
+                <img src="https://bakroaster.github.io/sololearn-ls/icon/svg/365-user.svg" alt="" height="100px">
             </div>
         </div>
         <div class="box">
