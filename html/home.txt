@@ -21,6 +21,4 @@
                 </div>
             </div>
         </div>
-        <div class="box">
-            <a class="btn btn-danger" href="startnewlife.html">Start New Life</a>
-        </div>
+        
